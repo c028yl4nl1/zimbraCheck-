@@ -1,0 +1,10 @@
+[package]
+name = "zimbraCheck"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = {version = "*" , features = ["blocking", "cookies"]}
+select = "0.6"
+colored = "*"
+native-dialog = "*"
